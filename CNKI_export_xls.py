@@ -154,9 +154,9 @@ try:
 
     start_end_year() # 2023-2023
 
-    # 在“主题”输入框中输入关键词“中医”
+    # 在“主题”输入框中输入关键词“XX”
     search_topic_input = driver.find_element(By.XPATH, '//input[@data-tipid="gradetxt-1"]')
-    search_topic_input.send_keys("中医")
+    search_topic_input.send_keys("XX")
 
     # 模拟按下回车键，进行检索
     search_topic_input.send_keys(Keys.ENTER)
